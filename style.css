@@ -1,0 +1,70 @@
+body {
+  background: linear-gradient(to bottom, rgba(0, 128, 128, 0.5), rgba(0, 128, 128, 0.75));
+  color: black;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  background: linear-gradient(to bottom, rgba(173, 255, 47, 0.5), rgba(173, 255, 47, 0.75));
+  border: 5px outset #008080;
+  margin-bottom: 5px;
+  text-align: center;
+  font-size: 28px;
+  font-family: 'Playfair Display', serif;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  background: linear-gradient(to bottom, rgba(173, 255, 47, 0.5), rgba(173, 255, 47, 0.75));
+  color: black;
+  border: 1px solid black;
+  padding: 5px;
+  font-size: 10;
+}
+
+th {
+  text-align: center;
+}
+  
+td {
+  text-align: bottom;
+}
+
+td p {
+  vertical-align: bottom;
+}
+  
+tr {
+  display: table-row;
+}
+
+.announcement {
+  
+  color: black;
+  padding: 5px;
+  margin-bottom: 4px;
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.weather-update {
+  background: linear-gradient(to bottom, rgba(173, 255, 47, 0.5), rgba(173, 255, 47, 0.75));
+  color: black;
+  padding: 0px;
+  border: 5px outset #008080;
+  font-family: 'Merriweather', serif;
+  font-size: 5px;
+  font-weight: bold;
+}
+.paragraph {
+  background: linear-gradient(to bottom, rgba(173, 255, 47, 0.5), rgba(173, 255, 47, 0.75));
+  font-size: 15.5px;
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+}
